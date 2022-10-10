@@ -81,20 +81,6 @@ for (int j = 0; j < array.GetLength(1); j++)
 Console.WriteLine($"Среднее арифметическое каждого столбца {String.Join("; ", sredArefm)}");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // методы для создания и заполнения массивов для дз
 int[,] GetArray(int m, int n, int minValue, int maxValue){
     int[,] result = new int[m, n];
